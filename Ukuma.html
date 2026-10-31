@@ -6,7 +6,7 @@
     <h1 style="text-align: center;">Ukuma District</h1>
     <p>You have moved east to see Ukuma District. The first thing you see are government buildings and commercial zones with businesses and shops and with some crowd.
     You decide to fixate on the government buildings first. You notice a building, with a white color and windows. It is big and has an inscription which reads: "Parliament of Iza, constructed 1823." You then ask someone what that is and he simply states as "Parliament Building" and briskly leaves, clearly with some urgency as if he had little time to address you.
-    You then see the commercial buildings. They are a mix of shops and offices and you can see people starting to enter offices. Now you then ask another local for the time and he says that it is <span id="atime"></span></p>
+    You then see the commercial buildings. They are a mix of shops and offices and you can see people starting to enter offices. Now you then ask another local for the time and he says that it is <span id="atime"></span>.</p>
   </body>
   <script>
     // 1. Fetch data
@@ -17,10 +17,15 @@
     
     // 3. Perform calculations using matching lowercase variables
     let ftime = time + 30;
-    let atime = ftime + " AM";
+    // 4: If/Else Command
+    if (ftime >= 1230) {
+      let atime = stringify(ftime) + " PM"
+    } else {
+      let atime = stringify(ftime) + " AM"
+    }
     
     // 4. Target the correct ID ("atime") and drop the extras
-    document.getElementById('atime').innerText = atime;
+    document.getElementById('the time').innerText = ftime;
     console.log(atime);
   </script>
 </html>
