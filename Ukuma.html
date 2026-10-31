@@ -14,7 +14,7 @@
     let savedData = localStorage.getItem("The Time");
     
     // 2. Parse the data and convert it into a mathematical number
-    let time = parseInt(savedData) || 0; // Added fallback to 0 if localStorage is empty
+    let time = parseInt(savedData);
     
     // 3. Perform calculations
     let ftime = time + 30;
