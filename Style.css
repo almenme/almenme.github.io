@@ -29,3 +29,8 @@ a:hover {
 a:active {
   color: #d8eb34; 
 }
+/* Proper 1.6 line spacing */
+
+p, h3 {
+  line-height: 1.6;
+}
