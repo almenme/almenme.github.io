@@ -34,3 +34,6 @@ a:active {
 p, h3 {
   line-height: 1.6;
 }
+.para-space {
+  line-height: 1;
+}
