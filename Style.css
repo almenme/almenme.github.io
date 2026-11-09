@@ -34,6 +34,10 @@ a:active {
 p, h3 {
   line-height: 1.6;
 }
+/* Classes as exceptions */
 .para-space {
   line-height: 1;
+}
+.lyrics {
+  line-height: 0.5;
 }
