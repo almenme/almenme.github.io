@@ -41,3 +41,20 @@ p, h3 {
 .lyrics {
   line-height: 0.5;
 }
+
+/* Buttons to get back */
+.home-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0066cc;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.home-button:hover {
+  background-color: #004c99;
+}
